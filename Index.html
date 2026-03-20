@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Developer & Data Science Enthusiast</title>
+  <meta name="description" content="B.Tech student passionate about Data Science, ML, and Web Development. Actively seeking internships." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+       Sticky top navigation with logo, links, and theme toggle.
+  ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>YN<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#journey" class="nav-link">Journey</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="#" class="nav-cta">Resume</a>
+        </li>
+      </ul>
+
+      <!-- Dark/Light toggle -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="toggle-icon sun">☀</span>
+        <span class="toggle-icon moon">☽</span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- ============================================================
+       HERO SECTION
+       Full-screen intro with name, title, tagline, and CTA.
+  ============================================================ -->
+  <section class="hero" id="hero">
+    <!-- Decorative background elements -->
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-grid"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-greeting animate-in" style="--delay:0.1s">
+        <span class="mono-tag">Hello, world! — I'm</span>
+      </p>
+      <h1 class="hero-name animate-in" style="--delay:0.25s">
+        Your Name
+      </h1>
+      <h2 class="hero-title animate-in" style="--delay:0.4s">
+        Data Science &amp; <em>Web Dev</em> Enthusiast
+      </h2>
+      <p class="hero-tagline animate-in" style="--delay:0.55s">
+        3rd-year B.Tech student turning data into insights and ideas into products. <br/>
+        Currently on a mission to build, learn, and land the perfect internship.
+      </p>
+
+      <div class="hero-actions animate-in" style="--delay:0.7s">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Let's Connect</a>
+      </div>
+
+      <!-- Quick stats -->
+      <div class="hero-stats animate-in" style="--delay:0.85s">
+        <div class="stat">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">3rd</span>
+          <span class="stat-label">Year B.Tech</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">Open</span>
+          <span class="stat-label">To Internships</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <span class="scroll-text mono-tag">scroll</span>
+      <span class="scroll-arrow">↓</span>
+    </a>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT SECTION
+       Concise personal intro with a human, engaging tone.
+  ============================================================ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Left: Text content -->
+        <div class="about-text reveal">
+          <p class="section-eyebrow">About Me</p>
+          <h2 class="section-title">
+            Curious builder,<br /><em>data thinker.</em>
+          </h2>
+          <p class="about-bio">
+            I'm a 3rd-year B.Tech student with a genuine obsession for understanding
+            patterns in data and crafting clean, functional web experiences. My journey
+            started with writing my first Python script and spiralled into machine
+            learning models, dashboards, and full-stack apps.
+          </p>
+          <p class="about-bio">
+            When I'm not debugging code, I'm grinding DSA problems, reading up on ML
+            papers, or exploring new tools that can sharpen my craft. I believe the best
+            way to learn is to build — so I build a lot.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">🎓</span>
+              <div>
+                <strong>B.Tech — Computer Science</strong>
+                <span>2022 – 2026 · Expected Graduation</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">📍</span>
+              <div>
+                <strong>India</strong>
+                <span>Available for Remote &amp; On-site Internships</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🔍</span>
+              <div>
+                <strong>Focus Areas</strong>
+                <span>Data Science · Machine Learning · Web Development</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Visual card -->
+        <div class="about-visual reveal">
+          <div class="about-card">
+            <div class="about-avatar">
+              <!-- Replace with your actual photo: <img src="your-photo.jpg" alt="Your Name" /> -->
+              <div class="avatar-placeholder">YN</div>
+            </div>
+            <div class="about-card-body">
+              <p class="about-card-name">Your Name</p>
+              <p class="about-card-role mono-tag">B.Tech CSE · Batch of '26</p>
+              <div class="about-badges">
+                <span class="badge">Data Science</span>
+                <span class="badge">Machine Learning</span>
+                <span class="badge">Web Dev</span>
+                <span class="badge">DSA</span>
+                <span class="badge">Python</span>
+                <span class="badge">Open to Work</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SKILLS SECTION
+       Categorised skill display with animated progress indicators.
+  ============================================================ -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">What I Work With</p>
+        <h2 class="section-title">Skills &amp; <em>Tools</em></h2>
+        <p class="section-subtitle">A curated set of technologies I actively use and continue to deepen.</p>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Programming Languages -->
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <span class="skill-card-icon">{ }</span>
+            <h3>Programming</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>Python</span><span class="skill-level">Advanced</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>Java</span><span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>C / C++</span><span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>JavaScript</span><span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="68"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>SQL</span><span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Science & ML -->
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <span class="skill-card-icon">◈</span>
+            <h3>Data Science &amp; ML</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>Pandas / NumPy</span><span class="skill-level">Advanced</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>Scikit-learn</span><span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="74"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>Matplotlib / Seaborn</span><span class="skill-level">Advanced</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>TensorFlow (Learning)</span><span class="skill-level">Beginner</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="40"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>Power BI / Tableau</span><span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web & Tools -->
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <span class="skill-card-icon">⌘</span>
+            <h3>Web &amp; Tools</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>HTML / CSS</span><span class="skill-level">Advanced</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>Git &amp; GitHub</span><span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>MySQL</span><span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="68"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>VS Code / Jupyter</span><span class="skill-level">Advanced</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span>REST APIs</span><span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROJECTS SECTION
+       Cards with tech stack pills, description, and impact.
+  ============================================================ -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">What I've Built</p>
+        <h2 class="section-title">Featured <em>Projects</em></h2>
+        <p class="section-subtitle">Real problems, real solutions — each project taught me something new.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Health Prediction -->
+        <article class="project-card featured reveal">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-tag-row">
+                <span class="project-tag tag-ml">Machine Learning</span>
+                <span class="project-tag tag-featured">⭐ Featured</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="GitHub" title="View on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+                <a href="#" class="project-link" aria-label="Live Demo" title="Live Demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Health Prediction System</h3>
+            <p class="project-description">
+              A machine learning–powered web application that predicts disease risk (diabetes,
+              heart disease) based on user-provided health metrics. Trained multiple classifiers
+              and selected the best-performing model with 89% accuracy.
+            </p>
+
+            <div class="project-impact">
+              <div class="impact-item">
+                <span class="impact-number">89%</span>
+                <span class="impact-label">Model Accuracy</span>
+              </div>
+              <div class="impact-item">
+                <span class="impact-number">3</span>
+                <span class="impact-label">ML Models Compared</span>
+              </div>
+            </div>
+
+            <div class="project-stack">
+              <span class="stack-pill">Python</span>
+              <span class="stack-pill">Scikit-learn</span>
+              <span class="stack-pill">Pandas</span>
+              <span class="stack-pill">Flask</span>
+              <span class="stack-pill">HTML/CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: IPL Dashboard -->
+        <article class="project-card reveal">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-tag-row">
+                <span class="project-tag tag-data">Data Analysis</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="GitHub" title="View on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+                <a href="#" class="project-link" aria-label="Live Demo" title="Live Demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">IPL Data Analysis Dashboard</h3>
+            <p class="project-description">
+              An interactive analytics dashboard exploring 10+ years of IPL data. Surfaces
+              team performance trends, top batsmen/bowlers, win probability factors, and
+              season-wise comparisons through rich visualisations.
+            </p>
+
+            <div class="project-impact">
+              <div class="impact-item">
+                <span class="impact-number">10+</span>
+                <span class="impact-label">Seasons Analysed</span>
+              </div>
+              <div class="impact-item">
+                <span class="impact-number">15+</span>
+                <span class="impact-label">Visualisations</span>
+              </div>
+            </div>
+
+            <div class="project-stack">
+              <span class="stack-pill">Python</span>
+              <span class="stack-pill">Pandas</span>
+              <span class="stack-pill">Matplotlib</span>
+              <span class="stack-pill">Seaborn</span>
+              <span class="stack-pill">Jupyter</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Weather Forecast App -->
+        <article class="project-card reveal">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-tag-row">
+                <span class="project-tag tag-web">Web App</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="GitHub" title="View on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+                <a href="#" class="project-link" aria-label="Live Demo" title="Live Demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Weather Forecast App</h3>
+            <p class="project-description">
+              A full-stack weather application built with Java (Servlets/JSP) backed by
+              MySQL for location history. Fetches live weather data via OpenWeatherMap API
+              and displays 5-day forecasts with a clean, responsive UI.
+            </p>
+
+            <div class="project-impact">
+              <div class="impact-item">
+                <span class="impact-number">5-day</span>
+                <span class="impact-label">Forecast Range</span>
+              </div>
+              <div class="impact-item">
+                <span class="impact-number">REST</span>
+                <span class="impact-label">API Integration</span>
+              </div>
+            </div>
+
+            <div class="project-stack">
+              <span class="stack-pill">Java</span>
+              <span class="stack-pill">JSP/Servlets</span>
+              <span class="stack-pill">MySQL</span>
+              <span class="stack-pill">REST API</span>
+              <span class="stack-pill">HTML/CSS</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- More projects CTA -->
+      <div class="projects-footer reveal">
+        <p>Want to see more? Check out all my repositories on GitHub.</p>
+        <a href="#" class="btn btn-ghost">View All on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       LEARNING JOURNEY SECTION
+       Timeline showing education, certifications, and growth.
+  ============================================================ -->
+  <section class="section journey" id="journey">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Experience &amp; Growth</p>
+        <h2 class="section-title">My Learning <em>Journey</em></h2>
+        <p class="section-subtitle">Every milestone, course, and late-night debugging session that got me here.</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date mono-tag">2022 – Present</span>
+            <h3>B.Tech — Computer Science &amp; Engineering</h3>
+            <p>Pursuing my degree with coursework covering Data Structures, Algorithms, DBMS, OS, and Machine Learning. Maintaining consistent academic performance while building side projects.</p>
+            <div class="timeline-tags">
+              <span class="badge">Academic</span>
+              <span class="badge">Core CS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date mono-tag">2024</span>
+            <h3>Data Science with Python — Self-Taught</h3>
+            <p>Completed an intensive self-study path covering Pandas, NumPy, data visualisation, and introductory machine learning. Applied learnings directly on real-world datasets (IPL, health data).</p>
+            <div class="timeline-tags">
+              <span class="badge">Python</span>
+              <span class="badge">Data Science</span>
+              <span class="badge">Kaggle</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date mono-tag">2024</span>
+            <h3>Machine Learning — Ongoing Study</h3>
+            <p>Studying supervised/unsupervised learning algorithms, model evaluation techniques, and feature engineering. Built a health prediction classifier achieving 89% accuracy on test data.</p>
+            <div class="timeline-tags">
+              <span class="badge">Scikit-learn</span>
+              <span class="badge">ML Theory</span>
+              <span class="badge">Model Tuning</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date mono-tag">2024 – Present</span>
+            <h3>DSA Practice — LeetCode / GeeksforGeeks</h3>
+            <p>Actively solving problems daily to strengthen problem-solving and algorithmic thinking. Focus on Arrays, Linked Lists, Trees, Graphs, and Dynamic Programming.</p>
+            <div class="timeline-tags">
+              <span class="badge">DSA</span>
+              <span class="badge">LeetCode</span>
+              <span class="badge">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker marker-active"></div>
+          <div class="timeline-content timeline-active">
+            <span class="timeline-date mono-tag">Right Now</span>
+            <h3>Actively Seeking Internships 🚀</h3>
+            <p>Looking for opportunities in Data Science, Software Development, or Web Development. Ready to contribute, learn fast, and make a real impact from day one.</p>
+            <div class="timeline-tags">
+              <span class="badge badge-accent">Available</span>
+              <span class="badge badge-accent">Remote / On-site</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT SECTION
+       Email, social links, and a simple message form.
+  ============================================================ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left: CTA text -->
+        <div class="contact-text reveal">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2 class="section-title">Let's work<br /><em>together.</em></h2>
+          <p class="contact-body">
+            Whether you have an internship opportunity, a project idea, or just want to
+            talk tech — my inbox is open. I try to respond within 24 hours.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:your.email@example.com" class="contact-link">
+              <span class="contact-link-icon">✉</span>
+              <div>
+                <span class="contact-link-label mono-tag">Email</span>
+                <span class="contact-link-value">your.email@example.com</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="contact-link">
+              <span class="contact-link-icon">in</span>
+              <div>
+                <span class="contact-link-label mono-tag">LinkedIn</span>
+                <span class="contact-link-value">linkedin.com/in/yourprofile</span>
+              </div>
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="contact-link">
+              <span class="contact-link-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </span>
+              <div>
+                <span class="contact-link-label mono-tag">GitHub</span>
+                <span class="contact-link-value">github.com/yourusername</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Resume download -->
+          <a href="#" class="btn btn-primary resume-btn" download>
+            ↓ Download Resume (PDF)
+          </a>
+        </div>
+
+        <!-- Right: Contact form -->
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name" class="form-label mono-tag">Your Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label mono-tag">Your Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="jane@company.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject" class="form-label mono-tag">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-input" placeholder="Internship Opportunity" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label mono-tag">Message</label>
+              <textarea id="message" name="message" class="form-input form-textarea" rows="5" placeholder="Hi, I'd love to discuss..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message →</button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-logo">
+          <span class="logo-bracket">&lt;</span>YN<span class="logo-bracket">/&gt;</span>
+        </p>
+        <p class="footer-copy">
+          Designed &amp; built by <strong>Your Name</strong> · 2025
+        </p>
+        <p class="footer-made mono-tag">Made with ❤ and too much coffee</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
